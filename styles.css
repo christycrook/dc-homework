@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.score {
+    color: white;
+    height: 20px;
+    margin: 30px 910px 0 30px;
+    padding-left: 260px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.container {
+    display: inline-grid;
+    height: 340px;
+    background-color: black;
+    margin: 0 894px 0 30px;
+    position: absolute;
+    border-top: 10px solid darkseagreen;
+    border-left: 10px solid darkseagreen;
+    border-right: 10px solid darkseagreen;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.redColorSetting {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 40px);
+    height: 30px;
+    margin-top: 15px;
+}
+
+.yellowColorSetting {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 40px);
+    height: 30px;
+    margin-top: -1px;
+}
+
+.greenColorSetting {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 40px);
+    height: 30px;
+    margin-top: -1px;
+}
+
+.blueColorSetting {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 40px);
+    height: 30px;
+    margin-top: -1px;
+}
+
+.paddle {
+    display: inline-grid;
+    grid-row-start: 150;
+    height: 10px;
+    width: 80px;
+    z-index: auto;
+    margin-left: 210px;
+}
+
+.ball {
+    color: white;
+    font-size: xx-large;
+    text-indent: 30px;
+    margin-top: -10px;
+}
+
+
+.ballTwo {
+    grid-row-start: 7;
+    color: white;
+    font-size: xx-large;
+    text-indent: 78px;
+    margin-top: -145px;
+}
+
+.ballThree {
+    grid-row-start: 8;
+    color: white;
+    font-size: xx-large;
+    text-indent: 392px;
+    margin-top: -145px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow:nth-child(n+3):nth-child(-n+4) {
+    background-color: black;
+}
+
+.yellow:nth-child(n+9):nth-child(-n+10) {
+    background-color: black;
+}
+
+.yellow:nth-child(n+15):nth-child(-n+16) {
+    background-color: black;
+}
+
+.yellow:nth-child(n+21):nth-child(-n+22) {
+    background-color: black;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.seagreen {
+    background-color: seagreen;
+}
+
